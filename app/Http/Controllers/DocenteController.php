@@ -164,7 +164,7 @@ class DocenteController extends Controller
             }  
           //dd($docSem);
             // dd(count($docSem[0]));
-             return view('materias.docentesPorsemestre', 
+             return view('materias.docentesporsemestre', 
              [
                 'docentes' => $docSem,
                 'materias' => $dat
